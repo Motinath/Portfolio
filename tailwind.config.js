@@ -40,8 +40,8 @@ export default {
           '50%': { transform: 'translateY(-20px)' },
         },
         glow: {
-          '0%': { boxShadow: '0 0 20px rgba(0, 0, 0, 0.1)' },
-          '100%': { boxShadow: '0 0 30px rgba(0, 0, 0, 0.3)' },
+          '0%': { boxShadow: '0 0 20px rgba(255, 255, 255, 0.1)' },
+          '100%': { boxShadow: '0 0 30px rgba(255, 255, 255, 0.3)' },
         },
         'gradient-shift': {
           '0%': { backgroundPosition: '0% 50%' },
