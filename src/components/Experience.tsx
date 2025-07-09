@@ -11,32 +11,47 @@ export function Experience() {
 
   const experiences = [
     {
-      title: 'Content Creation Intern',
-      company: 'Digital Media Startup',
-      location: 'Chennai, India',
-      period: 'Jun 2023 - Aug 2023',
+      title: 'Web Development Intern',
+      company: 'Prodigy InfoTech',
+      location: 'Remote',
+      period: 'Dec 2023 - Jan 2024',
       type: 'Internship',
-      description: 'Assisted in creating social media content and learned video editing techniques for brand promotion.',
+      description: 'Designed and developed interactive web interfaces while learning real-world development workflows.',
       achievements: [
-        'Created 20+ social media posts with 15% engagement increase',
-        'Learned Adobe Premiere Pro and After Effects basics',
-        'Collaborated with design team on brand campaigns',
-        'Gained experience in content planning and strategy'
+        'Developed responsive pages using HTML5, CSS3, and JavaScript',
+        'Optimized site layout for desktop and mobile views',
+        'Gained practical experience in Git and version control systems',
+        'Gained experience in planning and strategy'
       ],
       color: 'from-white/20 to-white/5'
     },
     {
-      title: 'Electronics Project Intern',
-      company: 'Tech Innovation Lab',
-      location: 'Bangalore, India',
-      period: 'Jan 2023 - Mar 2023',
+      title: 'Full Stack Developer Intern',
+      company: 'New Technology Institutions',
+      location: 'Coimbatore, India',
+      period: 'Dec 2023 - Dec 2023',
       type: 'Internship',
-      description: 'Worked on IoT projects and learned practical electronics design and implementation.',
+      description: 'Worked on both frontend and backend development, gaining hands-on experience in designing full stack web applications.',
       achievements: [
-        'Built 3 Arduino-based IoT prototypes',
-        'Learned PCB design fundamentals using KiCad',
-        'Assisted in sensor integration projects',
+        'Explored database operations like insert, update, and fetch using JSON-based storage',
+        'Practiced RESTful API integration for sending and receiving data',
+        'Developed a login and registration system using HTML, CSS, and JavaScript with form validation',
         'Documented project processes and learnings'
+      ],
+      color: 'from-white/20 to-white/5'
+    },
+    {
+      title: 'Digital Content Creator',
+      company: 'Good Game Nation',
+      location: 'Remote',
+      period: 'Sep 2022 - Dec 2023',
+      type: 'Freelance',
+      description: 'Developed creative content and visuals for social platforms to grow engagement and brand visibility.',
+      achievements: [
+        'Completed 5+ small content creation projects',
+        'Built personal brand on social media platforms',
+        'Learned client communication and project management',
+        'Designed social media graphics using Canva aligned with brand themes'
       ],
       color: 'from-white/20 to-white/5'
     },
@@ -55,25 +70,9 @@ export function Experience() {
       ],
       color: 'from-white/20 to-white/5'
     },
-    {
-      title: 'Academic Projects',
-      company: 'VIT AP University',
-      location: 'Amaravathi, India',
-      period: '2022 - 2026',
-      type: 'Education',
-      description: 'Completed various academic projects combining electronics and digital content creation.',
-      achievements: [
-        'Final year project on Smart Home Automation',
-        'Created technical documentation and presentations',
-        'Participated in college tech fests and competitions',
-        'Maintained 8 CGPA throughout the course'
-      ],
-      color: 'from-white/20 to-white/5'
-    }
   ];
-
   const stats = [
-    { label: 'Months Experience', value: '6+', icon: Calendar },
+    { label: 'Experience', value: '4 +', icon: Calendar },
     { label: 'Projects Completed', value: '15+', icon: TrendingUp },
     { label: 'Certifications', value: '6', icon: Award },
     { label: 'Learning Progress', value: '95%', icon: TrendingUp },

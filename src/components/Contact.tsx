@@ -74,13 +74,7 @@ export function Contact() {
       icon: Instagram,
       label: 'Instagram',
       href: 'https://instagram.com/motinath_',
-    },
-    {
-      icon: Mail,
-      label: 'Email',
-      href: 'mailto:motinath.rajendran@gmail.com',
-    }
-    
+    },    
   ];
 
   return (
